@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-	QApplication app(argc, argv); //初始化
+	QApplication app(argc, argv);
 
 	QWidget w;
 	w.show();
@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 	button.setParent(&w);
 	button.show();
 
-	app.exec(); //主事件循环
+	app.exec();
 	return 0;
 }
